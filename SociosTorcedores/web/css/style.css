@@ -1,0 +1,95 @@
+
+body {
+    background-image: url(../img/telaLogin.jpg);
+    margin: 0px;
+}
+.flutuante{
+    float:left; margin:80px 100px 100px 100px;
+}
+
+#top {
+    color: #FFFAFA;
+    background-color: #CCC;
+    width:100%;
+    height: 62px;
+    display: block;
+}
+
+#formulario1{
+    margin: 0px;
+    position: absolute;
+    left: 694px;
+}
+
+#formulario2{
+    border-radius: 5px;
+    width:400px;
+    height:auto;
+    background:#CCC;
+    display:inline-block;
+    padding:10px;
+    position: absolute;
+    opacity: 0.85;
+}
+
+#formulario2 span{
+    font-size: 16px;
+    font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif"; 
+    color:#069;
+    padding:5px auto;
+}
+#formulario1 input[type="text"] {
+    width:280px; padding:5px; font-size:14px; border:none; border-radius:4px; text-indent:6px; outline:none; font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif";
+}
+#formulario1 input[type="password"] {
+    width:280px; padding:5px; font-size:14px; border:none; border-radius:4px; text-indent:6px; outline:none; font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif";
+}
+#formulario1 input[type="submit"] {
+    width:80px;
+    background:#069;
+    font-size:14px;
+    color:#FFF;
+    padding: 5px;
+    border-bottom:1px solid ;
+    border-radius:1px;
+    font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif";
+    text-indent: 1px;
+    cursor:pointer;
+}
+
+#formulario2 input[type="name"] {
+    width:280px; padding:5px; font-size:14px; border:none; border-radius:4px; text-indent:6px; outline:none; font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif";
+}
+#formulario2 input[type="email"] {
+    width:280px; padding:5px; font-size:14px; border:none; border-radius:4px; text-indent:6px; outline:none; font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif";
+}
+#formulario2 input[type="password"] {
+    width:280px; padding:5px; font-size:14px; border:none; border-radius:4px; text-indent:6px; outline:none; font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif";
+}
+#formulario2 input[type="submit"] { 
+    width:120px; background:#069; font-size:14px; color:#FFF; padding:5px; border-bottom:3px solid #CCC; border-radius:4px; font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif"; text-indent:2px;  cursor:pointer;
+}  
+#formulario1 input[type="submit"]:hover {
+    background:#09F; color:#CCC;
+}
+#formulario2 input[type="submit"]:hover {
+    background:#09F; color:#CCC;
+}
+header h1 {
+    font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif"; color:white ;width:400px; height:auto;
+}
+
+h2 {font-family:Impacta, "arial", verdana,"Century Schoolbook L", "Times New Roman", "serif"; color: white; height: auto; width: 50%; display: inline-block;
+}
+
+footer {
+    text-align: right;
+    clear: both;
+    color: white;
+    display: block;
+    position: relative;
+}
+footer a{
+    color:#000;
+    text-decoration:none;
+}
