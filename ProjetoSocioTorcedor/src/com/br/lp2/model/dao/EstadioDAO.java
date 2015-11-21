@@ -50,7 +50,7 @@ public class EstadioDAO implements GenericDAO<Estadio>{
         con.close();
         
         }catch(SQLException ex){
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EstadioDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;
@@ -86,7 +86,7 @@ public class EstadioDAO implements GenericDAO<Estadio>{
             con.close();
             
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EstadioDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
        return estadios;
@@ -120,7 +120,7 @@ public class EstadioDAO implements GenericDAO<Estadio>{
            con.close();
            
         }catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EstadioDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;
@@ -152,7 +152,7 @@ public class EstadioDAO implements GenericDAO<Estadio>{
             con.close();
             
         }catch(SQLException ex){
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(EstadioDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;

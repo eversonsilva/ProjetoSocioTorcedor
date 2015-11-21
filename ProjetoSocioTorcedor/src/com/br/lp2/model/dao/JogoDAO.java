@@ -51,7 +51,7 @@ public class JogoDAO implements GenericDAO<Jogo>{
         con.close();
         
         }catch(SQLException | ArrayIndexOutOfBoundsException ex){
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(JogoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;
@@ -87,7 +87,7 @@ public class JogoDAO implements GenericDAO<Jogo>{
             con.close();
             
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(JogoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
        return jogos;
@@ -121,7 +121,7 @@ public class JogoDAO implements GenericDAO<Jogo>{
            con.close();
            
         }catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(JogoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;
@@ -153,7 +153,7 @@ public class JogoDAO implements GenericDAO<Jogo>{
             con.close();
             
         }catch(SQLException ex){
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(JogoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;

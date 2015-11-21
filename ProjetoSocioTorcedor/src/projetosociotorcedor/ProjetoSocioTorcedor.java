@@ -70,6 +70,11 @@ public class ProjetoSocioTorcedor {
         Usuario u1 = new Usuario();
         u1.setSenha("123");
         u1.setUsername("everson");
+        u1.setPlano("Ouro");
+        u1.setTime("Corinthians");
+        u1.setFoto("WEB-INF/img/perfil.jpg");
+        u1.setNascimento(DateUtil.string2date("19/01/1996 15:51:18"));
+        u1.setTipo(1);
         //usuarioDAO.insert(u1);
 
         //ATUALIZA USUARIO
@@ -129,7 +134,7 @@ public class ProjetoSocioTorcedor {
         i1.setValorIngresso(10.15);
         i1.setData(DateUtil.string2date("19/01/1996 15:55:05"));
         i1.setNomeCampeonato("Cam Brasil");
-        ingressoDAO.insert(i1);
+        //ingressoDAO.insert(i1);
 
         //ATUALIZA INGRESSO
         //Ingresso i2 = lista2.get(lista2.size() - 1);

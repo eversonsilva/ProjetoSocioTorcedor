@@ -12,11 +12,11 @@ import com.br.lp2.model.dao.UsuarioDAO;
  *
  * @author Everson
  */
-public class LoginManager {
+public class UserManager {
     
     public static boolean authorize(String username, String password){
         UsuarioDAO dao = new UsuarioDAO();
-        Usuario usuario = dao.readByName(username);
+        Usuario usuario = dao.readByUsername(username);
 
         return !(usuario.getId_usuario() == -1 || !usuario.getSenha().equals(password));
     }

@@ -54,7 +54,7 @@ public class IngressoDAO implements GenericDAO<Ingresso>{
         con.close();
         
         }catch(SQLException ex){
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(IngressoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;
@@ -93,7 +93,7 @@ public class IngressoDAO implements GenericDAO<Ingresso>{
             con.close();
             
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(IngressoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
        return ingressos;
@@ -128,7 +128,7 @@ public class IngressoDAO implements GenericDAO<Ingresso>{
            con.close();
            
         }catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(IngressoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;
@@ -160,7 +160,7 @@ public class IngressoDAO implements GenericDAO<Ingresso>{
             con.close();
             
         }catch(SQLException ex){
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(IngressoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
         
         return resposta;

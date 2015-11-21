@@ -49,7 +49,7 @@ public class AssentoDAO implements GenericDAO<Assento> {
             con.close();
 
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(AssentoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return resposta;
@@ -84,7 +84,7 @@ public class AssentoDAO implements GenericDAO<Assento> {
             con.close();
 
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(AssentoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return assentos;
@@ -118,7 +118,7 @@ public class AssentoDAO implements GenericDAO<Assento> {
             con.close();
 
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(AssentoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return resposta;
@@ -149,7 +149,7 @@ public class AssentoDAO implements GenericDAO<Assento> {
             con.close();
 
         } catch (SQLException ex) {
-            Logger.getLogger(UsuarioDAO.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(AssentoDAO.class.getName()).log(Level.SEVERE, null, ex);
         }
 
         return resposta;
